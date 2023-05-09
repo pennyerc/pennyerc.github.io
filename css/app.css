@@ -1168,7 +1168,7 @@ a {
 .header #main-nav-mobi ul li a {
   padding: 12px 30px;
   /* color: #181818; */
-  color: #286f50;
+  color: #E66988;
   font-size: 16px;
   font-weight: 600;
 }
@@ -3049,7 +3049,7 @@ img.mfp-img {
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(-20px);
+		transform: translatey(-40px);
 	}
 	100% {
 		transform: translatey(0px);
@@ -5558,7 +5558,7 @@ section.banner.s3.s2 .container .swiper-button-prev {
 .preloader {
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background: linear-gradient(264.28deg, #f8b6c6 -38.2%, #f8b6c6 103.12%);
   position: fixed;
   top: 0;
   left: 0;
@@ -5596,7 +5596,7 @@ section.banner.s3.s2 .container .swiper-button-prev {
   content: "";
   display: block;
   border-radius: 50%;
-  border: 2px solid var(--primary-color);
+  border: 2px solid #E66988;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -5754,6 +5754,10 @@ section.banner.s3.s2 .container .swiper-button-prev {
     width: 90%;
     z-index: -9999;
     opacity: .4;
+  }
+
+  .pie-chart { 
+    max-width: 300px;
   }
 }
 
