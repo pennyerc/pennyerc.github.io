@@ -5742,7 +5742,10 @@ section.banner.s3.s2 .container .swiper-button-prev {
 
 
 @media only screen and (max-width: 767px) { 
-
+  .logo-letters {
+    text-align: center;
+    margin: 0 auto;
+  }
   .pepe-bg {
     position: absolute;
     left: -20px;
